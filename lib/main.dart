@@ -34,12 +34,12 @@ class PantallaPrincipal extends StatelessWidget {
   Widget build(BuildContext context) {
     // Lista de 4 productos
     final List<Producto> productos = [
-      Producto(nombre: 'BMW M3', precio: '\$299,000,000', imgUrl: 'https://raw.githubusercontent.com/GarciaValenciaJulian0498/IAMoviles-Act-14-navegaci-n-entre-6-pantallas/refs/heads/master/carros/bmw.jpg'),
-      Producto(nombre: 'RAM TRX', precio: '\$299,000,000', imgUrl: 'https://raw.githubusercontent.com/GarciaValenciaJulian0498/IAMoviles-Act-14-navegaci-n-entre-6-pantallas/refs/heads/master/carros/trx.jpg'),
-      Producto(nombre: 'RAM TRX BLACK', precio: '\$299,000,000', imgUrl: 'https://raw.githubusercontent.com/GarciaValenciaJulian0498/IAMoviles-Act-14-navegaci-n-entre-6-pantallas/refs/heads/master/carros/trx1.jpg'),
-      Producto(nombre: 'TOYOTA COROLA', precio: '\$99,900,000', imgUrl: 'https://raw.githubusercontent.com/GarciaValenciaJulian0498/IAMoviles-Act-14-navegaci-n-entre-6-pantallas/refs/heads/master/carros/toyota.jpg'),
-      Producto(nombre: 'TESLA CYBERTRUCK', precio: '\$150,000,000', imgUrl: 'https://raw.githubusercontent.com/GarciaValenciaJulian0498/IAMoviles-Act-14-navegaci-n-entre-6-pantallas/refs/heads/master/carros/tesla.jfif'),
-      Producto(nombre: 'BMW X6', precio: '\$85,000,000', imgUrl: 'https://raw.githubusercontent.com/GarciaValenciaJulian0498/IAMoviles-Act-14-navegaci-n-entre-6-pantallas/refs/heads/master/carros/bmwx6.jfif'),
+      Producto(nombre: 'BMW M3', precio: '\$299,000,000', imgUrl: 'https://raw.githubusercontent.com/GarciaValenciaJulian0498/UII_Act2_card/refs/heads/master/carros/bmw.jpg'),
+      Producto(nombre: 'RAM TRX', precio: '\$299,000,000', imgUrl: 'https://raw.githubusercontent.com/GarciaValenciaJulian0498/UII_Act2_card/refs/heads/master/carros/trx.jpg'),
+      Producto(nombre: 'RAM TRX BLACK', precio: '\$299,000,000', imgUrl: 'https://raw.githubusercontent.com/GarciaValenciaJulian0498/UII_Act2_card/refs/heads/master/carros/trx1.jpg'),
+      Producto(nombre: 'TOYOTA COROLA', precio: '\$99,900,000', imgUrl: 'https://raw.githubusercontent.com/GarciaValenciaJulian0498/UII_Act2_card/refs/heads/master/carros/toyota.jpg'),
+      Producto(nombre: 'TESLA CYBERTRUCK', precio: '\$150,000,000', imgUrl: 'https://raw.githubusercontent.com/GarciaValenciaJulian0498/UII_Act2_card/refs/heads/master/carros/tesla.jfif'),
+      Producto(nombre: 'BMW X6', precio: '\$85,000,000', imgUrl: 'https://raw.githubusercontent.com/GarciaValenciaJulian0498/UII_Act2_card/refs/heads/master/carros/bmwx6.jfif'),
     ];
 
     return SafeArea(
